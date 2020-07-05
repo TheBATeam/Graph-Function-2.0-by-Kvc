@@ -1,0 +1,24 @@
+
+ This function simply prints a Specified Character on the cmd console at
+ the specified location. The Bottom-left of the console is taken origin
+ then points are plotted against that origin.
+ It maybe helpful in various mathematical operations, or graphs,Analysis
+
+ Syntax: Call Graph [Char] [Color] [Co-ord] [Co-ord] [Co-ord] ...
+         Call Graph [Char] [Color] -F "File.Plot"
+         Call Graph [-h | help | /? | /h]
+         Call Graph [ver]
+         
+ Where:
+ Char:		Character to represent printing of Points on console...
+ Color:		Hexadecimal color code for the Character...
+ Ver:		To know version of current plot Function...
+ File.plot:	Plot File, It will contain all the co-ordinates to be 
+ 		printed on the cmd console...
+ Co-Ord:	Co-Ordinates in the form of {X,Y}...
+ -h,help,/h,/?:	To get this help menu...
+
+ Example: Call Graph * 0a 2,2 3,3 4,4 5,5 6,6 7,7 8,8
+ Example: Call Graph * 0c -F "Example.Plot"
+ 
+ For more: visit, https://batchprogrammers.blogspot.com #TheBATeam
